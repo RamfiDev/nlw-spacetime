@@ -15,13 +15,56 @@ body {
   font-size: 1.6rem;
   color: #eaeaea;
   background: #121215;
+
+  display: grid;
+  grid-template-areas: "profile timeline";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100vh;
 }
 
+/* aside */
+aside {
+  grid-area: profile;
+
+  background: #121215 url(./assets/background.svg) no-repeat top right/auto 100%;
+  border-right: 1px solid;
+  border-image: linear-gradient(#727275, #2c2c31) 1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+aside img:nth-child(2) {
+  width: 16rem;
+  height: 16rem;
+  border-radius: 50%;
+  border: 0.4rem solid transparent;
+  background: linear-gradient(#d39e33, #ed5636, #633bbc) padding-box,
+    linear-gradient(260deg, #d39e33, #ed5636, #633bbc) border-box;
+}
+
+aside p {
+  font-size: 3.2rem;
+  text-align: center;
+}
+
+aside span {
+  font-size: 1.2rem;
+  color: #9e9ea0;
+}
+
+/* nav */
 nav {
   padding: 6.4rem;
+  grid-area: timeline;
+
+  overflow-y: scroll;
 }
 
-.memory {
+nav .memory {
   text-decoration: none;
 
   margin-bottom: 6.4rem;
@@ -31,24 +74,24 @@ nav {
   gap: 1.6rem;
 }
 
-.memory small {
+nav .memory small {
   font-size: 1.2rem;
   color: #bebebf;
 }
 
-.memory h1 {
+nav .memory h1 {
   font-size: 3.2rem;
   color: #eaeaea;
 }
 
-.memory img {
+nav .memory img {
   width: 100%;
   height: 20rem;
   object-fit: cover;
   border-radius: 0.8rem;
 }
 
-.memory p {
+nav .memory p {
   font-size: 1.8rem;
   color: #bebebf;
   line-height: 2.8rem;
