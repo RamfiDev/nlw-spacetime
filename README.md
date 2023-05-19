@@ -1,9 +1,21 @@
-# NLW Spacetime
-
-NLW é um evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB.
-
 <p align="center">
-  <img alt="NLW Spacetime thumbnail" src=".github/thumb.jpg" width="100%">
+  <img src=".github/preview.png" alt="Demonstração do projeto" width="100%" />
 </p>
 
-[🚀 Participe do evento](https://rocketseat.com.br/nlw/convite/robson-7598)
+## 🖥️ Projeto
+
+Esse é um projeto Web Responsivo de uma cápsula do tempo para exibir memórias em uma linha do tempo.
+
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido durante o NLW da Rocketseat com as seguintes tecnologias:
+
+- HTML
+- CSS
+- Git e Github
+
+## 🏷️ Layout
+
+Você pode visualizar o layout do projeto através
+[desse link](https://www.figma.com/file/xllhBAkuLVflqR1WB9SzTj/Capsula-do-Tempo---Trilha-Explorer?type=design&node-id=306%3A3&t=l2mqywaCaALXnqil-1).
+É necessário ter uma conta no [Figma](https://www.figma.com)
